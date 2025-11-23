@@ -1,0 +1,72 @@
+{
+  "name": "@shezy26/validajs",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Universal form validation library with Laravel-style syntax for vanilla JS, React, and Vue",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js"
+    },
+    "./react": {
+      "import": "./dist/react.esm.js",
+      "require": "./dist/react.js"
+    },
+    "./vue": {
+      "import": "./dist/vue.esm.js",
+      "require": "./dist/vue.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Tests coming soon\""
+  },
+  "keywords": [
+    "validation",
+    "form",
+    "laravel",
+    "vue",
+    "react",
+    "validator",
+    "form-validation",
+    "javascript",
+    "frontend",
+    "client-side-validation"
+  ],
+  "author": "Shahzaib Daniel <engrsk60@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shezy26/validajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shezy26/validajs/issues"
+  },
+  "homepage": "https://github.com/shezy26/validajs#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    }
+  }
+}

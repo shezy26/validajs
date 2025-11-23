@@ -1,0 +1,6 @@
+{
+  "email": ["required", "email", "max:255"],
+  "password": ["required", "min:8"],
+  "password_confirmation": ["required", "same:password"],
+  "age": ["required", "numeric", "between:18,100"]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <form id="testForm" data-schema="../schemas/registration.json">
+      <input type="email" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <input
+        type="password"
+        name="password_confirmation"
+        placeholder="Confirm Password"
+      />
+      <input type="number" name="age" placeholder="Age" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="../dist/validajs.min.js"></script>
+    <script>
+      // Simple initialization - schema loaded from data-schema attribute
+      const validator = new ValidaJS.default("#testForm", null, {
+        onSuccess: function (values) {
+          alert("Form is valid!");
+          console.log(values);
+        },
+        onError: function (errors) {
+          console.log("Errors:", errors);
+        },
+      });
+    </script>
+  </body>
+</html>
