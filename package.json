@@ -1,6 +1,6 @@
 {
   "name": "@shezy26/validajs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Universal form validation library with Laravel-style syntax for vanilla JS, React, and Vue",
   "main": "dist/index.js",
@@ -68,5 +68,10 @@
     "vue": {
       "optional": true
     }
+  },
+ 
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
+ 
 }

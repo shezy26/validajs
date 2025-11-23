@@ -4,8 +4,10 @@
 
 A powerful, lightweight form validation library that brings Laravel's elegant validation syntax to frontend JavaScript. Works seamlessly with vanilla JS, React, and Vue 3.
 
-[![npm version](https://img.shields.io/npm/v/validajs.svg)](https://www.npmjs.com/package/validajs)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/@shezy26/validajs.svg)](https://www.npmjs.com/package/@shezy26/validajs)
+[![npm downloads](https://img.shields.io/npm/dm/@shezy26/validajs.svg)](https://www.npmjs.com/package/@shezy26/validajs)
+[![GitHub stars](https://img.shields.io/github/stars/shezy26/validajs.svg)](https://github.com/shezy26/validajs/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## Why ValidaJS?
 
